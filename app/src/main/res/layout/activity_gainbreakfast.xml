@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gainbreakfast">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANANA PANCAKES"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/glutenfreebananapancakes"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:text="1 Tbsp coconut oil, 2 eggs, ¼ cup ground almonds (almond flour), 1 banana, 1 tsp cinnamon (optional), 1/2 cup greek yogurt, 1 cup berries. 680 kcal, 50g carbohydrate, 25 g protein, 45 g fat."
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHICKEN OMELETTE"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/chickenomelette"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:text="4 eggs, Salt and pepper, 1 tsp olive oil, 3 oz cooked and chopped chicken, 1/4 cup shredded cheese, 1 cup spinach or arugula. 520 kcal, 3 g carbohydrate, 50 g protein, 33 g fat"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EGGS AND AVOCADO TOAST"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="465dp"
+        android:src="@drawable/eggsandavocadotoast"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="10dp"
+        android:text="3 eggs, 1/2 cup 2% milk, 1 tsp coconut oil, 2 slices whole grain bread, Choice of greens or tomato slices, 1/2 sliced avocado, Salt and pepper. 615 kcal,  40 g carbohydrate, 35 g protein, 35 g fat."
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

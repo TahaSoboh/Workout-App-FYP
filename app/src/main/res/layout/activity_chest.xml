@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GainMuscle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chest and Biceps"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow the presented workouts below:"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/message1"
+        />
+
+    <RadioButton
+        android:id="@+id/exercise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:text="INCLINE BARBELL BENCH PRESS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise1"
+        android:layout_marginStart="60dp"
+        android:text="sets: 3     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="20dp"
+        android:text="DUMBBELL PRESS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise2"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="20dp"
+        android:text="WEIGHTED DIPS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise3"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="20dp"
+        android:text="CLOSE-GRIP BARBELL BENCH PRESS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise4"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="20dp"
+        android:text=" DUMBBELL LYING TRICEPS EXTENSION"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise5"
+        android:layout_marginStart="60dp"
+        android:text="sets: 3     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/info1"
+        android:background="@drawable/round_button"
+        android:text="i"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="320dp"
+        android:textAllCaps="false"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

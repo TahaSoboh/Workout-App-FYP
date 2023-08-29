@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SArms">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arms and Abs"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow the presented workouts below:"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/message1"
+        />
+
+    <RadioButton
+        android:id="@+id/exercise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:text= "HAMMER CURL"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise1"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:6-8"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:text="OVERHEAD ROPE EXTENSION"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise2"
+        android:layout_marginStart="60dp"
+        android:text="sets: 3     Reps:10-12"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="20dp"
+        android:text="DUMBBELL PRESS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise3"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:8-10"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="20dp"
+        android:text="PLANK"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise4"
+        android:layout_marginStart="60dp"
+        android:text="sets: 3     Time:MAX TIME"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="20dp"
+        android:text="DEAD BUG"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise5"
+        android:layout_marginStart="60dp"
+        android:text="sets: 2     Time:MAX TIME"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="20dp"
+        android:text="DUMBBELL SIDE BEND"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise6"
+        android:layout_marginStart="60dp"
+        android:text="sets: 4     Reps:25 EACH SIDE"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/info1"
+        android:background="@drawable/round_button"
+        android:text="i"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="320dp"
+        android:textAllCaps="false"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

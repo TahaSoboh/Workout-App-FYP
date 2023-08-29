@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlexibilityCP">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerebral Palsy Flexibility Exercises"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow the presented workouts below:"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/message1"
+        />
+
+    <RadioButton
+        android:id="@+id/exercise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:text="Joint Rotations"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="To expand or maintain a healthy range of motion, perform rotations on all your major joints and the neck. This includes: Hips, Knees, Ankle, Shoulders, Elbows, and Wrists.Combats stiffness and increases circulation."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="20dp"
+        android:text="Calf Stretch"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="To lengthen tight calves, stand facing a wall and take a big step back with one leg. Adjust your legs so that the front leg is bent, and the heel of the back leg is raised."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="20dp"
+        android:text="Quadricep Stretch"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise3"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="To stretch your quads, sit on the floor with one leg bent back and the other out in front of you. Gently lean back until you feel the strain, but not pain. Hold for 20-30 seconds and then switch legs."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="20dp"
+        android:text="Hamstring Stretch"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise4"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="To stretch the hamstrings, sit on the floor with both legs straightened in front of you and lean your body forward in a pain free range. Hold for 30 seconds and repeat."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

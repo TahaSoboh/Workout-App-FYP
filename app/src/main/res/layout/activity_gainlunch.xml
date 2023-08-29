@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gainlunch">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TUNA TACOS WITH CHIPOTLE SAUCE"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/tunatacos"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:text="2 cans tuna drained, 1 tablespoon olive oil, 1 clove garlic, 1 lime, 6oz.of plain Greek yogurt, 1 small can of chipotle peppers in adobo sauce, 2 avocados, Shredded cabbage, 2 Corn Tortillas. Protein: 36.5g, Carbs: 21g, Fats: 6.5g, Calories: 345"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPLE CRANBERRY WALNUT CHICKEN SALAD"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/applecranberry"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginRight="10dp"
+        android:text="12oz chicken breast, 4 cups salad , 1 apple, 1/2 cup walnuts, 1 cup dried cranberries. Protein: 28g, Carbs: 28g, Fats: 16.5g, Calories: 365"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHITE BARBECUE CHICKEN PITA with WHITE BBQ SAUCE"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="475dp"
+        android:src="@drawable/barbecuechicken"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="10dp"
+        android:text="8 oz. chicken breast, 1 whole wheat Pita, 1 cup chopped cabbage, 1 cup greek yogurt, 1 tablespoon spicy brown mustard, 1 teaspoon prepared horseradish, 1 clove garlic, 1/2 teaspoon black pepper, 1/4 cup white vinegar, 1/4 teaspoon paprika. Protein: 34g, Carbs: 41.5g, Fats: 8g, Calories: 265."
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

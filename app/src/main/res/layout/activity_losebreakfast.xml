@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Losebreakfast">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GLUTEN FREE BANANA PANCAKES"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/glutenfreebananapancakes"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:text="1 large banana, 2 medium beaten eggs,pinch of baking powder (gluten-free if coeliac), splash of vanilla extract, 1 tsp oil, 25g roughly chopped pecans, 125g raspberries. kcal:243, fat:15g, saturates:2g, carbs:15g, sugars:14g, fibre:4g, protein:9g, salt:0.3g
+"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRANBERRY AND RASPBERRY SMOOTHIE"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/cranberryraspberrysmoothie"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:text="200ml cranberry juice, 175g frozen raspberry, 100ml milk, 200ml natural yogurt. kcal:100, fat:2g, saturates:1g, carbs:17g, sugars:17g, fibre:1g, protein:4g, salt:0.16g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BREAKFAST EGG WRAPS"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="465dp"
+        android:src="@drawable/breakfassteggwraps"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="10dp"
+        android:text="125g pack closed cup mushrooms, 1 tsp rapeseed oil, 80g cherry tomatoes, half handful parsley, 2 tbsp porridge oats (40g), 3 eggs, 1 tsp English mustard powder made up with water. kcal:259, fat:20g, saturates:4g, carbs:31g, sugars:4g, fibre:6g, protein:28g, salt: 0.55g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

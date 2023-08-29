@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuscleStrengthCP">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerebral Palsy muscle strength"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow the presented workouts below:"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/message1"
+        />
+
+    <RadioButton
+        android:id="@+id/exercise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:text="Wheelchair Push-Ups"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="First, check that your wheelchair brakes are on. Then, sit on the edge of your seat with your feet flat on the floor. Place your hands on the armrests and press down to lift your body up. "
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="20dp"
+        android:text="Resistance Band Training"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Resistance bands are available in many different levels of resistance and can be used for a wide variety of muscle strengthening exercises."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="20dp"
+        android:text="Moving with Weighted Cuffs"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise3"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="An easy way to build strength is to wear some weighted cuffs around your wrists or ankles and go throughout the day.
+An extra few pounds may seem like nothing, but they definitely add up over time."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="20dp"
+        android:text="Wheelchair Pushes"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise4"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Pushing your wheelchair is a great arms and chest strenthening exercise. Push your wheelchair as much as possible. This is a good muscle strengthening exercise."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dietplanselect">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is your goal from the diet?"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonlose"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="160dp"
+        android:text="."
+        android:background="@drawable/weightloss"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loose Weight"
+        android:layout_marginStart="140dp"
+        android:layout_below="@id/buttonlose"
+        android:textSize="20dp"
+        android:gravity="left"
+        />
+
+    <Button
+        android:id="@+id/buttongain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="140dp"
+        android:text=".."
+        android:background="@drawable/gainmuscle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Gain Muscle"
+        android:layout_below="@id/buttongain"
+        android:textSize="20dp"
+        android:layout_marginLeft="140dp"
+        />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

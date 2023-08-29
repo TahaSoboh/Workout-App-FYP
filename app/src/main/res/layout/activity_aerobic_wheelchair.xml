@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AerobicWheelchair">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wheelchair Aerobic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow the presented workouts below:"
+        android:textSize="18dp"
+        android:gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/message1"
+        />
+
+    <RadioButton
+        android:id="@+id/exercise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"
+        android:text="Swimming"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="With the help of floatation devices and a supervisor,place your hands in line with your shoulders, straighten  wrist and bend elbow around 45 degrees, pointing fingers down and inward."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="20dp"
+        android:text="Wheelchair running"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Wheelchair running is considered to be a great Aerobic physical activity. It helps with weight regulation, energy boosting, and increases self-confidence."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="20dp"
+        android:text="Wheelchair backetball, nn"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise3"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Fold your arms at the elbow to bring your wrists up to your shoulders. Punch upwards diagonally across your body. Lower your arm to the starting position. Repeat, aim for 10 times per arm"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/exercise4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="20dp"
+        android:text="Seated Rows"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise4"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Using a band, face a fixed object and lean slightly forward with your arms. Pull the band back toward you at a 90-degree angle.Slowly lean back and return to the start position. Try around 12 to 15 reps."
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
+

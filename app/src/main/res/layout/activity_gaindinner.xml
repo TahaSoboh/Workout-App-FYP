@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gaindinner">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPICY CHICKEN WITH COUSCOUS"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/spicychicken"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:text="1 tbsp curry paste, 1 tbsp mango chutney, 1/2 tsp turmeric, 1 serving salt (to taste), 50 ml olive oil, 4 chicken breasts, 300 g couscous, 350 ml vegetable stock. Calories:284, Fat:3.7g, Carbohydrates:22.2g, Protein:50g."
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HARISSA CHICKEN AND TABBOULEH"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/harissachicken"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:text="Finely grated zest and juice 1 large orange, 3 tbsp runny honey, 4 tbsp harissa, 1 tbsp olive oil, small bunch fresh thyme, leaves picked, 2kg free-range whole chicken, Natural yogurt and flatbreads. Calories:482KCALS, Fat: 23.2G, Protein: 53.2G Carbogydrates: 13.7g."
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUFFALO CHICKEN PASTA SALAD"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="465dp"
+        android:src="@drawable/buffalochicken"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="10dp"
+        android:text="160g cooked pasta, 3 breasts cooked chicken, 2 stalks celery, Handful cherry tomatoes, 1 yellow pepper, 2 tbsp reduced-fat ranch dressing, Large handful mixed leaves. Calories:485, Fat:20g, Carbohydrates:30g, Protein:49g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

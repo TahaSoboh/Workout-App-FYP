@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loselunch">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEALTHY CHICKEN SALAD"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/healthychickensalad"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="10dp"
+        android:text="1 skinless chicken breast, 1 tbsp fish sauce, zest and juice half lime, 1 tsp caster sugar, 100g bag mixed salad leaves, large handful coriander, quarter red onion (thin slices), half chilli (thin slices), quarter cucumber (slices). kcal:109, fat:1g, saturates:0g, carbs:6g, sugars:1.6g, fibre:5g, protein:19g, salt:0g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOMBAY POTATO FRITTATA"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/bombaypotatofrittata"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:text="4 new potatoes, 100g baby spinach, 1 tbsp rapeseed oil, 1 onion, 1 large garlic clove, half tsp ground coriander, half tsp ground cumin, quarter tsp black mustard seeds, quarter tsp turmeric, 3 tomatoes, 2 large egg, half green chilli, 1 small bunch of coriander, 1 tbsp mango chutney, 3 tbsp fat-free Greek yogurt. kcal:317, fat:12g, saturates:2g, carbs:29g, sugars:16g, fibre:6g, protein:20g, salt:0.6g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HALLOUMI, CARROT, AND ORANGE SALAD"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="515dp"
+        android:src="@drawable/halloumi"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="10dp"
+        android:text="2 large oranges, 1.5 tbsp wholegrain mustard, 1.5 tsp honey, 1 tbsp white wine vinegar, 3 tbsp olive oil, 2 large carrots, 225g block halloumi, 100g baby spinach. kcal:338, fat:23g, saturates:10g, carbs:15g, sugars:15g, fibre:4g, protein:16g, salt:2.1g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+
+</RelativeLayout>

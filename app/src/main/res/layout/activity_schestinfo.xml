@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SChestinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRICEP DIPS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/dips"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="This exercise primarily focuses on the triceps,  also targeting the anterior deltoid and the pec muscles in your chest."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENCH PRESS"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/benchpress"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:text="This exercise the whole chest, works your lower, middle, and upper chest. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUSH UPS"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/pushup"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="Push ups focuses on the chest,  triceps, pectoral muscles, and shoulders. It can also strengthen the lower back and the abdominal muscles. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUSSIAN TWIST"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/russiantwist">
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="Russian twists strengthen your core, obliques, and spine."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIDE PLANK"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/sideplank"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:text=" It can help strengthen the abdominals, glutes and lower back muscles, improve muscle strength, ."
+        android:layout_marginLeft="200dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BURPEE"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/burpee"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:text=" Burpees focus on a full-body calisthenics workout that aims to build muscle strength and endurance in both your lower and upper body."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+
+</RelativeLayout>

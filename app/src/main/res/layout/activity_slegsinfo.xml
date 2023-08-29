@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SLegsinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEG PRESS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/legpress"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="This exercise develops and strengthens several muscles, such as the quadriceps, hamstring, and gluteal muscles. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEIGHTED WALKING LUNGES"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/weightedwalkinglunges"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="Weighted Walking lunges strengthens the leg muscles, primarily the gluteus maximus, hamstrings, quadriceps, and calves.  "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEG EXTENSION"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/legextension"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="This exercise strengthens the quadriceps, strengthening the patellar ligament and quadriceps attachment for the knee. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIRD DOG"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/birddog" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="This exercise strengthens the entire core, including the abs and the obliques. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEIGHTED PLANK"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/weightedplank">
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:text="This exercise helps build back strength and stability and greatly increases core strength. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIT UPS"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/situps"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:text="This exercise mainly works with rectus abdominis, transverse abdominis, and obliques in addition to your hip flexors, chest, and neck. "
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+
+</RelativeLayout>

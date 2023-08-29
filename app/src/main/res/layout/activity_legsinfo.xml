@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Legsinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMITH MACHINE SQUAT"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/smithmachinesquat"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="This exercise mainly targets the quadriceps, hamstrings, glutes, abdominals, and the calves."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEG PRESS"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/legpress"
+        />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="The Leg press works on the quads, hamstrings, glutes and even calves."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARBELL HACK SQUAT"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/barbellhacksquat"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:text="This exercise  that will help to increase muscle mass to the quadriceps and the glutes."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROMANIAN DEADLIFT"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/romaniandeadlift" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="erector spinae, gluteus maximus, hamstrings, adductor magus, gastrocnemius, trapezius and forearm flexors."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STANDING CALF RAISE"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/standingcalfraise"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:text="Standing calf raises activate the two muscles that run down the back of the lower leg: the gastrocnemius and soleus.."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HANGING LEGS RAISE"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/hanginglegraises"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:text="Hanging leg raises primarily work the abdominals and hip flexors"
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+
+</RelativeLayout>

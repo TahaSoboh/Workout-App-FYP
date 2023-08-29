@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FreeWeightsinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRICEP DIPS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/deadlift"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Dead Lifts build more strength in key muscles like the quads, glutes, and abs, develop core strength, improve hip stability and mobility, enhance grip strength."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARBELL LUNGES"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/barbelllunges"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:text="The barbell lunge is a leg exercise that targets muscles in the lower body, including the hamstrings, quadriceps, and glutes."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARBELL BENCH PRESS"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/barbellbenchpress"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="The bench press mainly works three muscles, your pecs, your front delts and your triceps."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BARBELL SQUATS"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/barbellsquat">
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="This exercise works your quadriceps, but also trains your glutes, hamstrings, and calves, as well as muscles in your lower back."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENT OVER ROWS"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/bentoverrow"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="Works on the latissimus dorsi, the middle and lower trapezius, the rhomboids, and the posterior deltoids."
+        android:layout_marginLeft="200dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAMMER CURL"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/hammercurl"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:text="Hammer curls target the long head of the bicep as well as the brachialis and the brachioradialis."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+
+</RelativeLayout>

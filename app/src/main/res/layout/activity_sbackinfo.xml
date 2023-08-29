@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SBackinfo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEAD LIFT"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/deadlift"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Dead Lifts build more strength in key muscles like the quads, glutes, and abs, develop core strength, improve hip stability and mobility, enhance grip strength."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENT-OVER ROW"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/bentoverrow"
+        />
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="The Bent-over Row works the latissimus dorsi , the middle and lower trapezius, the rhomboids, and the posterior deltoids."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAT PULLDOWN"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/latpulldown"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="This exercise will really strengthen the latissimus dorsi muscle, the broadest muscle in your back."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AB WHEEL ROLLOUT"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/kneelingabwheelrollout" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="This exercise is highly effective at strengthening your abdominal region and improving core strength."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V SIT-UP"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/vsitup"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:text="This exercise targets your abdominal muscles as well as your glutes and hip flexors."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLUTTER KICK"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="270dp"
+        android:src="@drawable/flutterkick"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:text="This exercise targets your lower abdominal wall and work to strengthen your core muscles. Flutter kicks also work your glutes, hip flexors, and quads."
+        android:layout_marginLeft="200dp">
+    </TextView>
+
+
+</RelativeLayout>

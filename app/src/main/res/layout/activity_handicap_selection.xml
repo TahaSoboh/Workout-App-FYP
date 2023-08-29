@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandicapSelection">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select your case:"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <Button
+        android:id="@+id/wheelchair"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:text="WheelChair users" />
+
+
+
+    <Button
+        android:id="@+id/downsyndrome"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="250dp"
+        android:text="Down syndrome" />
+
+
+
+    <Button
+        android:id="@+id/celebralpalsy"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        android:text="Cerebral Palsy" />
+
+    <Button
+        android:id="@+id/bmicalc"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="490dp"
+        android:gravity="center"
+        android:text="Calculate BMI"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/dietplan"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="580dp"
+        android:gravity="center"
+        android:text="DIET PLAN"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Losedinner">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SARDINE TOMATO PASTA WITH GREMOLATA"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/sardine"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="10dp"
+        android:text="75g wholemeal spaghetti, 120g can sardines in oil, 1/2 tbsp capers, 2 garlic cloves, 2 tomatoes, 30g rocket, 1/2 lemon, small handful of parsley. kcal:405, fat:9g, saturates:2g, carbs:53g, sugars:5g, fibre:11g, protein:23g, salt:0.8g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKINNY CHICKEN CAESAR SALAD"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/chickencaesar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:text="4 skinless chicken breasts, 2 tsp olive oil, juice 1 lemon, 1 large Cos lettuce, 1 punnet salad cress, 4 hard-boiled eggs, 25g parmesan, 50g anchovy fillets, 170g pot fat-free Greek yogurt. kcal:321, fat:12g, saturates:4g, carbs:4g, sugars:3g, fibre:3g, protein:48g, salt:1.8g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIGHTER CHICKEN CACCIATORE"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="525dp"
+        android:src="@drawable/cacciatore"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="10dp"
+        android:text="1 tbsp olive oil, 3 slices prosciutto, 1 medium onion, 2 garlic cloves, 2 sage sprigs, 2 rosemary sprigs, 4 skinless chicken breasts, 150ml dry white wine, 400g can plum tomatoes, 1 tbsp tomato purée, 225g chestnut mushrooms. kcal:262, fat:6.2g, saturates:1.3g, carbs:6.9g, sugars:5.2g, fibre:2.7g, protein:38.7g, salt:1g"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck">
+    </TextView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+
+</RelativeLayout>

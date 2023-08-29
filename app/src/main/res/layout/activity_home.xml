@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <include layout = "@layout/toolbar"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select what is suitable for you:"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="100dp"
+        />
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="190dp"
+        android:text="m"
+        android:textColor="@color/purple_500"
+        android:textAlignment="gravity"
+        android:background="@drawable/male" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_marginStart="80dp"
+        android:layout_below="@id/button0"
+        android:textSize="20dp"
+        android:gravity="left"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="40dp"
+        android:text="f"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/female" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_marginEnd="60dp"
+        android:layout_below="@id/button1"
+        android:textSize="20dp"
+        android:gravity="right"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="360dp"
+        android:text="H"
+        android:textColor="@color/purple_500"
+        android:background="@drawable/handicap"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disabilities"
+        android:layout_below="@id/button2"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>

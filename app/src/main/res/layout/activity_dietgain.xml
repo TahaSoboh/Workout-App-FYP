@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dietgain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are you looking for? "
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/gainbreakfast"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="HIGH PROTEIN BREAKFAST"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/gainlunch"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="HIGH PROTEIN LUNCH"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/gaindinner"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:text="HIGH PROTEIN DINNER"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/gainsnack"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="HIGH PROTEIN SNACKS"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
